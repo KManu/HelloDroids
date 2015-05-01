@@ -1,0 +1,200 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.GDGLegon.hellodroids.MainActivity"
+    android:weightSum="100"
+    android:orientation="vertical" >
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="30" >
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text=""
+            android:background="@android:color/darker_gray"
+            android:id="@+id/txtResult"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" 
+        android:layout_weight="70"
+        android:orientation="vertical"
+        android:weightSum="100">
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:weightSum="100"
+            >
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="7"
+                android:layout_weight="25"
+                android:id="@+id/btn7"
+                android:onClick="disp7">
+                
+            </Button>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="8"
+                android:layout_weight="25"
+                android:id="@+id/btn8"
+                android:onClick="disp8">
+                
+            </Button>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="9"
+                android:layout_weight="25"
+                android:id="@+id/btn9"
+                android:onClick="disp9">
+                
+            </Button>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="/"
+                android:layout_weight="25"
+                android:id="@+id/btnDivide"
+                android:onClick="dispDivision">
+                
+            </Button>
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:weightSum="100">
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="4"
+                android:layout_weight="25"
+                android:id="@+id/btn4"
+                android:onClick="disp4">
+                
+            </Button>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="5"
+                android:layout_weight="25"
+                android:id="@+id/btn5"
+                android:onClick="disp5">
+                
+            </Button>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="6"
+                android:layout_weight="25"
+                android:id="@+id/btn6"
+                android:onClick="disp6">
+                
+            </Button>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="*"
+                android:layout_weight="25"
+                android:id="@+id/btnMultiply"
+                android:onClick="dispMultiplication">
+                
+            </Button>
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:weightSum="100">
+             <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="1"
+                android:layout_weight="25"
+                android:id="@+id/btn1"
+                android:onClick="disp1">
+                
+            </Button>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="2"
+                android:layout_weight="25"
+                android:id="@+id/btn2"
+                android:onClick="disp2">
+                
+            </Button>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="3"
+                android:layout_weight="25"
+                android:id="@+id/btn3"
+                android:onClick="disp3">
+                
+            </Button>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="+"
+                android:layout_weight="25"
+                android:id="@+id/btnAdd"
+                android:onClick="dispAddition"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="25" 
+            android:weightSum="100">
+             <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="25"
+                android:text="0"
+                android:onClick="disp0"
+                android:id="@+id/btn0">
+                
+            </Button>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="."
+                android:onClick="dispDecimal"
+                android:layout_weight="25"
+                android:id="@+id/btnDecimal">
+                
+            </Button>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="="
+                android:onClick="evaluate"
+                android:layout_weight="25"
+                android:id="@+id/btnEqual">
+                
+            </Button>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="-"
+                android:onClick="dispSubtraction"
+                android:layout_weight="25"
+                android:id="@+id/btnSubtract"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
