@@ -10,6 +10,7 @@ eliminate these bugs, but to save yourself headaches you may want to
 move your project to a location where this is not a problem.
 D:\Work\Programming\GDG\Legon\GDG Legon Workspace\Android Studio\Hello Droids
                                  -     -                 -            -      
+Just adding this extra
 
 Ignored Files:
 --------------
